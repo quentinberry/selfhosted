@@ -2,7 +2,7 @@
 # Run this script on the NAS to test that setup-server-folders.sh works.
 # It creates /volume1/test as a dry-run target folder.
 
-TEST_DIR="/volume1/test"
+TEST_DIR="/volume1/test/schmest"
 
 mkdir -p "$TEST_DIR"
 chmod 777 "$TEST_DIR"
