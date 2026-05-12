@@ -4,6 +4,8 @@
 
 TEST_DIR="/volume1/test"
 
+mkdir -p "$TEST_DIR"
+
 if [ -d "$TEST_DIR" ]; then
   echo ""
   echo "SUCCESS: $TEST_DIR was created."
