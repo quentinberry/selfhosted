@@ -113,3 +113,6 @@ done
 
 echo ""
 echo "Done. Created: $CREATED, Skipped (already existed): $SKIPPED"
+
+
+# to run, do `curl -fsSL https://raw.githubusercontent.com/quentinberry/selfhosted/main/setup-server-folders.sh | sudo bash`
