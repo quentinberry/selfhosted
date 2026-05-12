@@ -5,6 +5,7 @@
 TEST_DIR="/volume1/test"
 
 mkdir -p "$TEST_DIR"
+chmod 777 "$TEST_DIR"
 
 if [ -d "$TEST_DIR" ]; then
   echo ""
@@ -14,3 +15,5 @@ else
   echo "FAIL: $TEST_DIR was not created."
   exit 1
 fi
+
+## run this: curl -fsSL https://raw.githubusercontent.com/quentinberry/selfhosted/main/test-sh.sh sudo bash
